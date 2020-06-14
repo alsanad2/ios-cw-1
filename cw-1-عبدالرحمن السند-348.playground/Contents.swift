@@ -5,9 +5,9 @@
 var age = 18
 var height = 1.63
 var hobby1 = "football"
-var hobby2 =  " horse riding"
+var hobby2 =  "horse riding"
 
-    print( "my name is: ", name, " , and my age is \(age), and my height is : \(height), my hobbies are : \(hobby1), \(hobby2))")
+print( "my name is ", name, " , and my age is \(age), and my height is \(height). Talking about my hobbies, my first hobby is \(hobby1), and my second hobby is \(hobby2)")
  
 
     
@@ -24,10 +24,29 @@ var hobby2 =  " horse riding"
     
     //comparing
     name != friendName
-    age == friendAge
-    height > friendHeight
+    name == friendName
     
-    hobby1 == friendHobby1
-    
+    hobby1 ==  friendHobby1
+    hobby1 != friendHobby1
+    hobby2 == friendHobby2
     hobby2 != friendHobby2
+    hobby1 == friendHobby2
+    hobby1 != friendHobby2
+    hobby2  == friendHobby1
+    hobby2 != friendHobby1
+
+    age > friendAge
+    age < friendAge
+    age == friendAge
+    age >= friendAge
+    age <= friendAge
+    age != friendAge
+
+   height > friendHeight
+   height < friendHeight
+   height == friendHeight
+   height >= friendHeight
+   height <= friendHeight
+   height != friendHeight
+ 
     
